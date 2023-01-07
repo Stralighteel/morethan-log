@@ -10,7 +10,12 @@ const CONFIG = {
     github: 'stralighteel',
     instagram: '',
   },
-
+  projects: [
+    {
+      name: 'Untilled',
+      href: 'https://untilled.web.app'
+    }
+  ],
   // blog setting (required)
   blog: {
     title: 'Personal eXperience',
