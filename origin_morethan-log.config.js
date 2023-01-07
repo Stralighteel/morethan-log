@@ -1,27 +1,32 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: 'StarryLee',
+    name: 'morethanmin',
     image: '/avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: 'Mom & ProductManager',
-    bio: '?',
-    email: 'stralighteel@gmail.com',
-    linkedin: 'stralighteel',
-    github: 'stralighteel',
+    role: 'frontend developer',
+    bio: 'I develop everything using node.',
+    email: 'morethanmin.dev@gmail.com',
+    linkedin: 'morethanmin',
+    github: 'morethanmin',
     instagram: '',
   },
-
+  projects: [
+    {
+      name: 'Untilled',
+      href: 'https://untilled.web.app'
+    }
+  ],
   // blog setting (required)
   blog: {
-    title: 'Personal eXperience',
-    description: 'welcome to starry-log!',
-    theme: 'auto' // ['light', 'dark', 'auto']
+    title: 'morethan-log',
+    description: 'welcome to morethan-log!',
+    theme: 'light' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: 'https://starry-7339ve4bp-stralighteel.vercel.app',
+  link: 'https://morethan-log.vercel.app',
   since: 2022, // If leave this empty, current year will be used.
-  lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
@@ -48,7 +53,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: 'stralighteel/morethan-log',
+      repo: 'morethanmin/morethan-log',
       'issue-term': 'og:title',
       label: '💬 Utterances',
     }
