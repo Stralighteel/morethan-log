@@ -1,13 +1,13 @@
 const CONFIG = {
-  // profile setting (required)
+  // profile setting
   profile: {
     name: 'morethanmin',
     image: '/avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: 'frontend developer',
     bio: 'I develop everything using node.',
     email: 'morethanmin.dev@gmail.com',
-    linkedin: 'morethanmin',
     github: 'morethanmin',
+    linkedin: '',
     instagram: '',
   },
   projects: [
@@ -16,14 +16,14 @@ const CONFIG = {
       href: 'https://untilled.web.app'
     }
   ],
-  // blog setting (required)
+  // blog setting
   blog: {
     title: 'morethan-log',
     description: 'welcome to morethan-log!',
-    theme: 'light' // ['light', 'dark', 'auto']
+    theme: 'auto' // ['light', 'dark', 'auto']
   },
 
-  // CONFIG configration (required)
+  // CONFIG configration
   link: 'https://morethan-log.vercel.app',
   since: 2022, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
@@ -32,22 +32,22 @@ const CONFIG = {
     keywords: ['Blog', 'Website', 'Notion'],
   },
 
-  // notion configuration (required)
+  // notion configuration
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
   },
 
-  // plugin configuration (optional)
+  // plugin configuration
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: process.env.GOOGLE_MEASUREMENT_ID || ''
+      measurementId: '' // ex. G-9N3FE0117Q
     }
   },
   googleSearchConsole: {
     enable: false,
     config: {
-      siteVerification: process.env.GOOGLE_SITE_VERIFICATION || ''
+      siteVerification: '' // ex. qvdR1gXMirk_DCUOKPgRnxu2x6fqSPrquYnEZZMjR9w
     }
   },
   utterances: {
