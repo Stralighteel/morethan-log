@@ -21,14 +21,16 @@ const PostHeader: React.FC<Props> = ({ data }) => {
           <div className="flex items-center gap-4 mb-3">
             {data.author && data.author[0] && (
               <div className="flex items-center gap-2">
-                <Image
-                  className="rounded-full"
-                  src={data.author[0].profile_photo}
-                  alt="profile_photo"
-                  loader={imageLoader}
-                  width={24}
-                  height={24}
-                />
+                {ata.author[0]?.profile_photo ? (<Image
+                    className="rounded-full"
+                    src={data.author[0].profile_photo}
+                    alt="profile_photo"
+                    loader={imageLoader}
+                    width={24}
+                    height={24}
+                  />)
+                  : null
+                }
                 <div className="">
                   {`${data.author[0].last_name}${data.author[0].first_name}`}
                 </div>
