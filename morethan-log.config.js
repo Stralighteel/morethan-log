@@ -9,7 +9,7 @@ const CONFIG = {
     linkedin: 'stralighteel',
     github: 'stralighteel',
     instagram: 'null',
-    profile_photo: null 
+    profile_photo: 'null' 
   },
   projects: [
     {
