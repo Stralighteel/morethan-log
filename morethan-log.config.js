@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: 'WarmUp',
-      href: 'https://untilled.web.app'
+      href: 'https://warmup.run'
     }
   ],
   // blog setting
