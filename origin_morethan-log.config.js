@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: 'morethan-log',
-    description: 'welcome to morethan-log!',
+    description: 'welcome to starry Forest!',
     theme: 'light' // ['light', 'dark', 'auto']
   },
 
