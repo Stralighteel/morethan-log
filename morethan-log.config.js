@@ -1,25 +1,25 @@
 const CONFIG = {
   // profile setting
   profile: {
-    name: 'morethanmin',
+    name: 'StarryLee',
     image: '/avatar.svg',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: 'frontend developer',
-    bio: 'I develop everything using node.',
-    email: 'morethanmin.dev@gmail.com',
-    github: 'morethanmin',
+    role: 'Product Manager',
+    bio: '우당탕탕 두살배기 아들의 엄마이자 협업을 사랑하는 본투비 제품관리자.',
+    email: 'stralighteel@gmail.com',
+    github: 'stralighteel',
     linkedin: '',
     instagram: '',
   },
   projects: [
     {
-      name: 'Untilled',
+      name: 'WarmUp',
       href: 'https://untilled.web.app'
     }
   ],
   // blog setting
   blog: {
-    title: 'morethan-log',
-    description: 'welcome to morethan-log!',
+    title: 'Starry Forest',
+    description: 'welcome to Starry Forest!',
     theme: 'auto' // ['light', 'dark', 'auto']
   },
 
